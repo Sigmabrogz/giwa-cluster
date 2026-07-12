@@ -1,27 +1,62 @@
 {
-  "updatedAt": "2026-07-12T20:11:00.542Z",
+  "updatedAt": "2026-07-12T20:15:00.721Z",
   "chain": "GIWA Sepolia",
   "chainId": 91342,
   "suffix": "636f64657865726fc0de0001",
   "explorer": "https://sepolia-explorer.giwa.io",
   "totals": {
-    "uniqueWallets": 71,
-    "totalTxns": 88,
-    "active24h": 71,
-    "active7d": 71
+    "uniqueWallets": 76,
+    "totalTxns": 93,
+    "active24h": 76,
+    "active7d": 76
   },
   "byCategory": {
-    "Token Transfer": 74,
-    "Contract Deploy": 12,
+    "Token Transfer": 77,
+    "Contract Deploy": 14,
     "Contract Interaction": 2
   },
   "dailySeries": [
     {
       "date": "2026-07-12",
-      "wallets": 71
+      "wallets": 76
     }
   ],
   "recent": [
+    {
+      "addr": "0xd333f6334ddb84c96189329abce124feaab5923e",
+      "hash": "0x2c5e96451ff7a4ea35d156bea3cce960a901c8b167ceaa81e174888961d30902",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-12T20:14:47.706Z"
+    },
+    {
+      "addr": "0x0b009462d364eec5a6c4ade735007b677870136c",
+      "hash": "0xfc675cadbeb2a00e36b732a6b47d67f95f460167b64f9a6acc34c4e543218bff",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-12T20:13:53.317Z"
+    },
+    {
+      "addr": "0x1ad71463f2ab92e9295d574cbd6555c27912fa5f",
+      "hash": "0x0b87d6393b7619c577b091f4bc09a9a5aba38ea9ab733fd0c43c4a456fb9dd7a",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-12T20:13:39.848Z"
+    },
+    {
+      "addr": "0x47397c13f5a8e199c6b008d36ae05cd80eed5991",
+      "hash": "0xf44839620193c459fb3a4ccc3f4f50bec41e21198658047bf8b534336788e98a",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-12T20:13:18.524Z"
+    },
+    {
+      "addr": "0x41ac7227f9011cec96f07854df5ca4b57acf8d47",
+      "hash": "0x6939beefe60b34f8dca793443c35d7ba07f8b909ba3c4f322e34424882586d2c",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-12T20:12:59.766Z"
+    },
     {
       "addr": "0x3253ae5289c99ffd8737ad9db38c2e8873f5e333",
       "hash": "0xd8379995c46684e29d630942a3f25bed33f55f1baf06a308712d8cf9c6fdac50",
