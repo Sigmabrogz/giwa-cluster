@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-14T13:35:00.735Z",
+  "updatedAt": "2026-07-14T13:40:01.193Z",
   "chain": "GIWA Sepolia",
   "chainId": 91342,
   "suffix": "636f64657865726fc0de0001",
   "explorer": "https://sepolia-explorer.giwa.io",
   "totals": {
-    "uniqueWallets": 153,
-    "totalTxns": 186,
-    "active24h": 57,
-    "active7d": 153
+    "uniqueWallets": 156,
+    "totalTxns": 190,
+    "active24h": 60,
+    "active7d": 156
   },
   "byCategory": {
-    "Token Transfer": 152,
-    "Contract Deploy": 31,
+    "Token Transfer": 154,
+    "Contract Deploy": 33,
     "Contract Interaction": 3
   },
   "dailySeries": [
@@ -26,10 +26,31 @@
     },
     {
       "date": "2026-07-14",
-      "wallets": 57
+      "wallets": 60
     }
   ],
   "recent": [
+    {
+      "addr": "0xcbbf44406aa3fa862e83cc6da23b5ffa89f66824",
+      "hash": "0x262a50e4c176db77efdbbd42b06b866e02d0992ba518ed1ef92e5f9c43acf1e9",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:39:39.014Z"
+    },
+    {
+      "addr": "0x0b3e7eba051ea286b7f9090cd42d1f59a2de60e9",
+      "hash": "0x180c70897de159639a4900f4bd46690ecbf2e2e4a2a04400b06764797a1ebb2c",
+      "b": "deploy",
+      "n": 2,
+      "at": "2026-07-14T13:39:03.089Z"
+    },
+    {
+      "addr": "0x121db73f6cd49cdd81ebdaaaacb55a41111ccf34",
+      "hash": "0xd2fa6e462b3cd1705fd64f51bd5f8f8a1d870a8a934380e2432e67832819cfed",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:38:54.816Z"
+    },
     {
       "addr": "0x9e79168d382a847bb1bcd95007475f116f879a6a",
       "hash": "0x7f6ca8a6cfdea9a28d80efb9e0911e7bcaf69e504a3f88bd94d3987d2a43ec70",
@@ -428,27 +449,6 @@
       "b": "deploy",
       "n": 1,
       "at": "2026-07-14T12:49:59.496Z"
-    },
-    {
-      "addr": "0x07f1dabf946158c684bb4fe13b6c7ad8946588ad",
-      "hash": "0xe7ca1b696f81287d0e032475e74d71eab37d48623eb9cd541b5d98340cd62d68",
-      "b": "transfer",
-      "n": 1,
-      "at": "2026-07-13T08:32:46.742Z"
-    },
-    {
-      "addr": "0x4836cc7ccb64aa14289358d171a2f19b69426bba",
-      "hash": "0x281ef1a9a0c0b40ccdc4e11035ed007481f6f3e794709700564c21ee999ce8b1",
-      "b": "transfer",
-      "n": 1,
-      "at": "2026-07-12T21:38:03.108Z"
-    },
-    {
-      "addr": "0xfe9975cd64d18791b5d6e781f8f178ac51ac24b5",
-      "hash": "0x5fee0c350ffdb26c7278c5c93da55158032f456be295e480962cef14d8b74310",
-      "b": "transfer",
-      "n": 1,
-      "at": "2026-07-12T21:30:02.944Z"
     }
   ]
 }
