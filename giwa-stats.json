@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-14T13:30:00.658Z",
+  "updatedAt": "2026-07-14T13:35:00.735Z",
   "chain": "GIWA Sepolia",
   "chainId": 91342,
   "suffix": "636f64657865726fc0de0001",
   "explorer": "https://sepolia-explorer.giwa.io",
   "totals": {
-    "uniqueWallets": 151,
-    "totalTxns": 184,
-    "active24h": 55,
-    "active7d": 151
+    "uniqueWallets": 153,
+    "totalTxns": 186,
+    "active24h": 57,
+    "active7d": 153
   },
   "byCategory": {
-    "Token Transfer": 150,
+    "Token Transfer": 152,
     "Contract Deploy": 31,
     "Contract Interaction": 3
   },
@@ -26,10 +26,24 @@
     },
     {
       "date": "2026-07-14",
-      "wallets": 55
+      "wallets": 57
     }
   ],
   "recent": [
+    {
+      "addr": "0x9e79168d382a847bb1bcd95007475f116f879a6a",
+      "hash": "0x7f6ca8a6cfdea9a28d80efb9e0911e7bcaf69e504a3f88bd94d3987d2a43ec70",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:33:44.515Z"
+    },
+    {
+      "addr": "0xa5b6f92acdd543fb8d3218d309234df89d084c99",
+      "hash": "0xb7ec89b3e321fda7896ca23290b23861479e76a5fc947cb8d1d9ab32b87f320d",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:30:52.028Z"
+    },
     {
       "addr": "0x68b56dc773b475c6781df745f7e9740726b91cf4",
       "hash": "0xbca23fe48b0ea09fc52e55dc311aaf27e930b822e7bb1d730edb23b1209bbcb3",
@@ -435,20 +449,6 @@
       "b": "transfer",
       "n": 1,
       "at": "2026-07-12T21:30:02.944Z"
-    },
-    {
-      "addr": "0x661f58537577020567e873255c16c603bea04e47",
-      "hash": "0x669932422c618fb5b03cdfb1ba19596c9037389646dd6a4eea453bec0a8ad674",
-      "b": "transfer",
-      "n": 1,
-      "at": "2026-07-12T21:29:26.507Z"
-    },
-    {
-      "addr": "0xdd6ba631ac378d6607370e82efdd0645a71525fd",
-      "hash": "0x56c367889b69a87105fa65be62a61a87fcba0d9319b91f66a4fdcb568513c2d1",
-      "b": "deploy",
-      "n": 1,
-      "at": "2026-07-12T21:14:44.976Z"
     }
   ]
 }
