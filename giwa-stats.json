@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-14T13:10:00.611Z",
+  "updatedAt": "2026-07-14T13:15:00.703Z",
   "chain": "GIWA Sepolia",
   "chainId": 91342,
   "suffix": "636f64657865726fc0de0001",
   "explorer": "https://sepolia-explorer.giwa.io",
   "totals": {
-    "uniqueWallets": 138,
-    "totalTxns": 168,
-    "active24h": 42,
-    "active7d": 138
+    "uniqueWallets": 142,
+    "totalTxns": 173,
+    "active24h": 46,
+    "active7d": 142
   },
   "byCategory": {
-    "Token Transfer": 138,
-    "Contract Deploy": 27,
+    "Token Transfer": 142,
+    "Contract Deploy": 28,
     "Contract Interaction": 3
   },
   "dailySeries": [
@@ -26,10 +26,38 @@
     },
     {
       "date": "2026-07-14",
-      "wallets": 42
+      "wallets": 46
     }
   ],
   "recent": [
+    {
+      "addr": "0xc7235dbf2b3f4ebd1920cac519a031c648078bde",
+      "hash": "0xa675d8edfc1d6f6d91d48274a2b897f8fab456eff151b0d959e821a8ec8d214d",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:14:55.825Z"
+    },
+    {
+      "addr": "0xa46493b6e520e7a1b6ac5f88689fbfffd920702d",
+      "hash": "0x7e57507b2b6d866105e854ab04f24d26d4325a6466a3f63bb196508eabe9d346",
+      "b": "transfer",
+      "n": 2,
+      "at": "2026-07-14T13:14:22.925Z"
+    },
+    {
+      "addr": "0x3977afbd77de6c8c7214dd96801d9d82f155d18a",
+      "hash": "0x8dcbab3fc2ca3476a9a2866f4087846e48d10e486761debc78e3c8fb3ab417e2",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:13:42.264Z"
+    },
+    {
+      "addr": "0x9cdb66e4e65c27557c1afaa2bd4439fb2bfa6b1d",
+      "hash": "0x4edad8d760490c7a23c800e49d0d3ad57ff82177d45058fec3d803c4da7f6b2f",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-14T13:12:40.898Z"
+    },
     {
       "addr": "0x37d26babbc3a1645673b2226d30c6f7cd3c04d3c",
       "hash": "0x6a331f5ef867dc63629997703bd91b564ace281951211b4665ea398ba789ed09",
@@ -421,34 +449,6 @@
       "b": "deploy",
       "n": 1,
       "at": "2026-07-12T20:34:36.683Z"
-    },
-    {
-      "addr": "0xba68cde70054fa114d83dc7acb4b9a0b9eb9c369",
-      "hash": "0xc00fe0433e116813ebed693286d2b680671fd1ce243e92126f360080280db0a7",
-      "b": "transfer",
-      "n": 1,
-      "at": "2026-07-12T20:30:41.058Z"
-    },
-    {
-      "addr": "0xdedc3b88681af6b373280dca6f9682fab4f80be8",
-      "hash": "0x94a999c79b29c511a215fb6ca1bf412c6d4bc9ca0f9038d7b9926fdea304fdbf",
-      "b": "deploy",
-      "n": 1,
-      "at": "2026-07-12T20:29:52.908Z"
-    },
-    {
-      "addr": "0xcbe04dd4fee6aef51388e567c37830877eef819f",
-      "hash": "0x9dc9b6862c119d4ff598fd08078951e68e592edd05adf9f7d91c19e7dd636f80",
-      "b": "transfer",
-      "n": 1,
-      "at": "2026-07-12T20:24:15.695Z"
-    },
-    {
-      "addr": "0x069f10a7a6f9e3af4d2113439f45834e293046a7",
-      "hash": "0x7ec88c9b9ae2326fd9b9fd5934bfb7dca0463e3ee75d37912bd73d271e4eb4e3",
-      "b": "transfer",
-      "n": 1,
-      "at": "2026-07-12T20:23:12.730Z"
     }
   ]
 }
