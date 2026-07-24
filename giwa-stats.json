@@ -1,20 +1,458 @@
 {
-  "updatedAt": "2026-07-24T15:40:08.824Z",
+  "updatedAt": "2026-07-24T15:45:04.465Z",
   "chain": "GIWA Sepolia",
   "chainId": 91342,
   "suffix": "636f64657865726fc0de0001",
   "explorer": "https://sepolia-explorer.giwa.io",
   "totals": {
-    "uniqueWallets": 0,
-    "totalTxns": 0,
+    "uniqueWallets": 164,
+    "totalTxns": 200,
     "active24h": 0,
     "active7d": 0
   },
   "byCategory": {
-    "Token Transfer": 0,
-    "Contract Deploy": 0,
-    "Contract Interaction": 0
+    "Token Transfer": 164,
+    "Contract Deploy": 33,
+    "Contract Interaction": 3
   },
-  "dailySeries": [],
-  "recent": []
+  "dailySeries": [
+    {
+      "date": "2026-07-12",
+      "wallets": 95
+    },
+    {
+      "date": "2026-07-13",
+      "wallets": 1
+    },
+    {
+      "date": "2026-07-14",
+      "wallets": 67
+    },
+    {
+      "date": "2026-07-16",
+      "wallets": 1
+    }
+  ],
+  "recent": [
+    {
+      "addr": "0xc8477df42762d51220d16b7f93812f0c3ec750e2",
+      "hash": "0x656a5ccf900f395925a8f6d8c16f63ebc0cd24db0537dcb9f5d82966ac4249ef",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-16T16:47:54.083Z"
+    },
+    {
+      "addr": "0xb9c05a1d7f9a93936e08d3b83c14eac8c5db3c87",
+      "hash": "0xe318f47a735409f99ea5579787ceaf00f35a7f733117984e152dfa7a48505f08",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T15:47:34.112Z"
+    },
+    {
+      "addr": "0x9833b33e43260e3524b7eaff8fc4a3c323533e58",
+      "hash": "0xe6d7cceadf6da72ee870faca96c5ec6fa3ab838819a72cece2fe1358ea783690",
+      "b": "transfer",
+      "n": 3,
+      "at": "2026-07-14T15:42:40.825Z"
+    },
+    {
+      "addr": "0xc559f98387275dfb819fb6a9629e4a52f878d485",
+      "hash": "0x901b795aa3ac9a2ae4982691d02a709a1983090e5739d83038fa1cd77643b73f",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T14:22:58.189Z"
+    },
+    {
+      "addr": "0x5d87ea61eb9b080a59833c116870d65201333fd7",
+      "hash": "0xb124e68c60ac66e886f03a216ff5d9e6aaa66190fc4d9a5f4404f88757853712",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T14:22:19.904Z"
+    },
+    {
+      "addr": "0xdb29162f72944bc317f62f5f76e6e84094970439",
+      "hash": "0x5f50f001b25c53a160d816b94028fd498e389ca66a5433ab162ec1f121550181",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:59:15.956Z"
+    },
+    {
+      "addr": "0xfd9c1c7f1162390e33a7e5203d7191ecff63a0ce",
+      "hash": "0xd3e4d9ce0a244db557c2140f739634cb2b2f8f7d38f2f838dda386604999144b",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:57:31.314Z"
+    },
+    {
+      "addr": "0x941f8ed276bf30720db932e6d36fe5bdd4594ac4",
+      "hash": "0x9c3f7eb1b97e2e055a156c061230ae056dea80aa39b5a9949569ed13a2d17a44",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:40:17.701Z"
+    },
+    {
+      "addr": "0xcbbf44406aa3fa862e83cc6da23b5ffa89f66824",
+      "hash": "0x262a50e4c176db77efdbbd42b06b866e02d0992ba518ed1ef92e5f9c43acf1e9",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:39:39.014Z"
+    },
+    {
+      "addr": "0x0b3e7eba051ea286b7f9090cd42d1f59a2de60e9",
+      "hash": "0x180c70897de159639a4900f4bd46690ecbf2e2e4a2a04400b06764797a1ebb2c",
+      "b": "deploy",
+      "n": 2,
+      "at": "2026-07-14T13:39:03.089Z"
+    },
+    {
+      "addr": "0x121db73f6cd49cdd81ebdaaaacb55a41111ccf34",
+      "hash": "0xd2fa6e462b3cd1705fd64f51bd5f8f8a1d870a8a934380e2432e67832819cfed",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:38:54.816Z"
+    },
+    {
+      "addr": "0x9e79168d382a847bb1bcd95007475f116f879a6a",
+      "hash": "0x7f6ca8a6cfdea9a28d80efb9e0911e7bcaf69e504a3f88bd94d3987d2a43ec70",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:33:44.515Z"
+    },
+    {
+      "addr": "0xa5b6f92acdd543fb8d3218d309234df89d084c99",
+      "hash": "0xb7ec89b3e321fda7896ca23290b23861479e76a5fc947cb8d1d9ab32b87f320d",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:30:52.028Z"
+    },
+    {
+      "addr": "0x68b56dc773b475c6781df745f7e9740726b91cf4",
+      "hash": "0xbca23fe48b0ea09fc52e55dc311aaf27e930b822e7bb1d730edb23b1209bbcb3",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-14T13:24:23.902Z"
+    },
+    {
+      "addr": "0x44839745633d3f290ee3d86304510f1e502bf9cf",
+      "hash": "0x827b6ee7ac955903680c7f2818625072a1eb99ddb42d3da07b1efb1fca1fd52e",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:22:54.732Z"
+    },
+    {
+      "addr": "0x9f689ea261ad1234359a1761be65613b61fe977c",
+      "hash": "0x67f2260ac20b5a8405f65baaa952369b9f07a720e176953dee1b4c3dee840911",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:21:46.563Z"
+    },
+    {
+      "addr": "0x630579c6dc92625bd64db51b9e878c655d74e2bc",
+      "hash": "0xb991cd5cce50bb24d4e87c8aca67a10f7a812e7ec40ac55da36b0ed896b0a99d",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:21:44.231Z"
+    },
+    {
+      "addr": "0xfefbc135c97dc510e5c01d9d7bb92fd0335cda60",
+      "hash": "0x017f17de67743b71fae629489c1026dda1e1937bab6915983662c9baa70c28db",
+      "b": "transfer",
+      "n": 2,
+      "at": "2026-07-14T13:21:39.392Z"
+    },
+    {
+      "addr": "0x8e44a71e07728bbde359eb15fa17b84c9a42a373",
+      "hash": "0xc17c75443dd3755e60338d116795e9dc15c37534804093afbe7572c3b22fba63",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:21:07.850Z"
+    },
+    {
+      "addr": "0xd509c23f5995186a35b27488eeb9d407c4741f18",
+      "hash": "0xae03f52a73d3969890b7d72f846b3691a02f0b118722c458298e41033b32a7c5",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:16:33.954Z"
+    },
+    {
+      "addr": "0x2751aad96546c944e9d59f965ba0c60122c55045",
+      "hash": "0x0902e60b32b35b57cf72ca1e703be4f815cfbcb66d9dcafa5f5dc75702d89b2a",
+      "b": "deploy",
+      "n": 2,
+      "at": "2026-07-14T13:15:45.429Z"
+    },
+    {
+      "addr": "0x08ac56c9b5625ef1ee49de9fa0c5161359b7d799",
+      "hash": "0x0f07e1863985a36d59b05fcc76212bd03683f4a7afe0759b02b910ca741c66d0",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:15:01.532Z"
+    },
+    {
+      "addr": "0xc7235dbf2b3f4ebd1920cac519a031c648078bde",
+      "hash": "0xa675d8edfc1d6f6d91d48274a2b897f8fab456eff151b0d959e821a8ec8d214d",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:14:55.825Z"
+    },
+    {
+      "addr": "0xa46493b6e520e7a1b6ac5f88689fbfffd920702d",
+      "hash": "0x7e57507b2b6d866105e854ab04f24d26d4325a6466a3f63bb196508eabe9d346",
+      "b": "transfer",
+      "n": 2,
+      "at": "2026-07-14T13:14:22.925Z"
+    },
+    {
+      "addr": "0x3977afbd77de6c8c7214dd96801d9d82f155d18a",
+      "hash": "0x8dcbab3fc2ca3476a9a2866f4087846e48d10e486761debc78e3c8fb3ab417e2",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:13:42.264Z"
+    },
+    {
+      "addr": "0x9cdb66e4e65c27557c1afaa2bd4439fb2bfa6b1d",
+      "hash": "0x4edad8d760490c7a23c800e49d0d3ad57ff82177d45058fec3d803c4da7f6b2f",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-14T13:12:40.898Z"
+    },
+    {
+      "addr": "0x37d26babbc3a1645673b2226d30c6f7cd3c04d3c",
+      "hash": "0x6a331f5ef867dc63629997703bd91b564ace281951211b4665ea398ba789ed09",
+      "b": "transfer",
+      "n": 2,
+      "at": "2026-07-14T13:08:41.805Z"
+    },
+    {
+      "addr": "0x1969c7fdc637ab4105b98e9276c3bfba2be372a3",
+      "hash": "0x7890a78d0b13793b4a080351ea6d61f475abd0c2922dc75a8ebd790884ade805",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:08:09.829Z"
+    },
+    {
+      "addr": "0xffe0b4d38ae809f441ba11e4f03f4fb97e234b71",
+      "hash": "0xdc90d4ffa5e6b856cd5016c38ae99daa50f19dc87a9709bfcbc66425f862a373",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:07:47.226Z"
+    },
+    {
+      "addr": "0x7bf64d026bf863e12fec978b9f9789dfe8283dd0",
+      "hash": "0x12f0ade35d1840a45da7ce02725c5474e01e4a3e107968616f4686a18dd26727",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:07:21.163Z"
+    },
+    {
+      "addr": "0x987f3e60c7b40774d6079297b5269cded57a2d54",
+      "hash": "0x6e630ba5fcf7fa9190b3365a997f9debc31c10fbf35cc4bbc3974eba520f43ae",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:07:13.436Z"
+    },
+    {
+      "addr": "0x6e87002448278728e45a6b7b0f02b8940ec40682",
+      "hash": "0xfd7a564f791916e656b1eac2fcb55fdee15e4e9287f091e5f64c5e21767c3d73",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:06:51.924Z"
+    },
+    {
+      "addr": "0xb94ffc8315d7c7013dee3add03b6737f911ee99c",
+      "hash": "0x59b01b87499556066a3ff546f3950fd5fe35d6ff8ab5540e81f689c92faa6cdf",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-14T13:06:47.191Z"
+    },
+    {
+      "addr": "0x0d7998f9b5ff06e9374832c51b7d68e081c30c11",
+      "hash": "0x7ca2aa21da367fe8825aa383620a858735a013a6d98e79c3c2b2e280e7133d91",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:06:20.436Z"
+    },
+    {
+      "addr": "0x66f1adf034be3cd39aea064541e92f7ca663e2e1",
+      "hash": "0xf7c9d58d1264d3dd6c069129981fb14625457e393d89034d8bb9d48d7fd558fb",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:06:17.550Z"
+    },
+    {
+      "addr": "0x325912043e6492d629755b4580645728b05eb38b",
+      "hash": "0x6af469678fdfd0d9e3be5f7d8bd0da4c7709389d7521ee97351a0e7711e756e0",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:05:56.050Z"
+    },
+    {
+      "addr": "0xfa8cfdb04c03c8b69a955d6ec8b382d68679a9ac",
+      "hash": "0x57d8d89143c78f77f4322b6e82684dd25cfb9af597f59e3f373c901598ca6dce",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T13:05:36.795Z"
+    },
+    {
+      "addr": "0x00d3045c763d66b43e855ad8045c909d34d92e1a",
+      "hash": "0x8ae2f72efdf4d1a9a0fcedd23932620e47cdaa8a80bea2f44ac7da37db6aefb6",
+      "b": "transfer",
+      "n": 3,
+      "at": "2026-07-14T13:04:57.659Z"
+    },
+    {
+      "addr": "0xaed905a23b5043c64b247736f9aab1c3bad3348f",
+      "hash": "0x643960a600d9e9382f11d139c46d123af1b1ed8863b073873a0514ea1e8c911c",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:59:50.014Z"
+    },
+    {
+      "addr": "0xd02766ef2af9d7b547d4cacd0a87501f4f1e1673",
+      "hash": "0xf5520927c714e17b8869ba7e697c91e170e9165a98bd10eec9aa8c6c0ebd90c4",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:59:46.040Z"
+    },
+    {
+      "addr": "0xaf1695937cb973f29310ac73cd2a65b4cdb4d6c5",
+      "hash": "0x8c2fc7b8b543c93ee2999513ae67e570542707196dfff8825b40d61f87326db2",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:59:27.070Z"
+    },
+    {
+      "addr": "0xb609d3f33ca5b4941b09a86f5f6f140629d385a4",
+      "hash": "0x60d386c768f458624022fddbc61265934699a8510f313eeaf6a06af2c7488fba",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:59:16.135Z"
+    },
+    {
+      "addr": "0xd60018292808dc48976dc971cf165cdb4662111a",
+      "hash": "0xdf8f7bbf5b6ef760aa3d3fbe5f343f83f0b0b07bdff99a6caf048c366d00b404",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:59:04.164Z"
+    },
+    {
+      "addr": "0x5aa04146a91ab603103f87c69ce251abdc1bb02a",
+      "hash": "0xc7054031beafc151520f3cf39860b260a53ef9629bf9f0b0ab3d46bddeeb45d4",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:59:03.056Z"
+    },
+    {
+      "addr": "0xac598ba4b1325205081cf0af591bde2644748255",
+      "hash": "0xa4a8907ec37056e80672377ac9e0885de9748771f8a18715932e603050569b73",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-14T12:58:54.170Z"
+    },
+    {
+      "addr": "0x69b234f770c11ae59d5a4e4ffce743823e5cddf6",
+      "hash": "0x056a2f9d0139a023f8b8b5a98c4902ec090b4ce69bb81e4aa8bbf20ecf9760d2",
+      "b": "transfer",
+      "n": 3,
+      "at": "2026-07-14T12:58:45.511Z"
+    },
+    {
+      "addr": "0x827c2df74808d0e5eba9c2db02718dc2a7cf2a7b",
+      "hash": "0x40c841cdfa68ca8cdc92ffc0d65f23ae227eb7f99eb0cba467deab304c27cbfe",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:58:45.024Z"
+    },
+    {
+      "addr": "0x2c66df502c558c0caf3391a25cff8a1a10017327",
+      "hash": "0x6cae7794b624a282dd240a0cb85e34cde52d16644ffdcb33676043ad354e0d93",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:58:16.135Z"
+    },
+    {
+      "addr": "0x64c46f7dfa10f82e3ffa41b347224c0b1c55bd0e",
+      "hash": "0xe9fd4b81932aa37f451207fa4ec311a2fc7a434866599ea8f82b733f34cfb523",
+      "b": "transfer",
+      "n": 2,
+      "at": "2026-07-14T12:58:15.318Z"
+    },
+    {
+      "addr": "0x41271399bd1ef3384a21db7a1ef5e3400e43e6b5",
+      "hash": "0x5a0a3a39ba1c4c498ecaf8bee104854da3bdba8fcc1f28c53ebe0f91eba68e5c",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:58:10.054Z"
+    },
+    {
+      "addr": "0x3ddd547ff98201892c1b1668cdfd8e6da8ab253e",
+      "hash": "0x768f489971605789cf30561a0fba42cb8d17d8c09ab539f21d419aa9e79df15e",
+      "b": "interact",
+      "n": 1,
+      "at": "2026-07-14T12:58:02.771Z"
+    },
+    {
+      "addr": "0xbfec95f67cac48fe9d7bb390cad81efe8f5e4a22",
+      "hash": "0x01dc5e7421b2867db623ee3636bd465899430d76ab5032e6264ab97d796a0146",
+      "b": "transfer",
+      "n": 3,
+      "at": "2026-07-14T12:57:47.449Z"
+    },
+    {
+      "addr": "0x25b87a06bf9d5ee8e33ba6cf49123063ad23516d",
+      "hash": "0x4cdefa48f767c4fa5898064762df4d81a956ca53553dbed116f27851cb3592c3",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:57:47.408Z"
+    },
+    {
+      "addr": "0xadf015b1011909397f64c015bff7ade51902acc8",
+      "hash": "0xdc76c02e526f0fa2b145673e5f6b004e9959ad0e64f276be66c13f98b5b4f444",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:57:39.356Z"
+    },
+    {
+      "addr": "0x9cbbf6e2c731341083c7fac7eaccad75467ad942",
+      "hash": "0x1bd894633d367ff11e130d1d5240b424f89bbf724f6c87ca6d9c902e39a4a02d",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:57:23.529Z"
+    },
+    {
+      "addr": "0xf5ea782c69ffe7c10f5d93405e376315277357b5",
+      "hash": "0x6e3dbd2f4e3715f337019c3f08c7fe40eb51c6f5f9a34a8235de24c26615669f",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:57:23.477Z"
+    },
+    {
+      "addr": "0x3e8f08a426a1a776a10f3d9e0d917041d2858aa6",
+      "hash": "0x438f93d52afdb475459f53dab1b7e64c52342c8089ca5ebd26be374987bca213",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:56:56.055Z"
+    },
+    {
+      "addr": "0x08eae14156f6ccb321631087508260e2a98b8fa7",
+      "hash": "0x351bb61ac92123f8891d1822c5c715744d488abd99b4d6b78c09aa8f2c94a8fa",
+      "b": "transfer",
+      "n": 2,
+      "at": "2026-07-14T12:56:46.177Z"
+    },
+    {
+      "addr": "0xadd70df13f3bef9f44b36405986563b56ed83053",
+      "hash": "0x5565cae597706d4972f523f60477c664055efdc903c5d2df4ac452755b2f5e5a",
+      "b": "deploy",
+      "n": 1,
+      "at": "2026-07-14T12:56:32.337Z"
+    },
+    {
+      "addr": "0x4512c0910cbcba88b47d066aa612306d2d610067",
+      "hash": "0x635be7c0e8745228e0dbe47731dddcad8ada991a7ffed6fd680fffc562be8102",
+      "b": "transfer",
+      "n": 1,
+      "at": "2026-07-14T12:56:14.939Z"
+    }
+  ]
 }
