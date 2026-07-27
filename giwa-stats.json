@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T17:20:00.610Z",
+  "updatedAt": "2026-07-27T17:25:00.860Z",
   "chain": "GIWA Sepolia",
   "chainId": 91342,
   "suffix": "636f64657865726fc0de0001",
@@ -7,7 +7,7 @@
   "totals": {
     "uniqueWallets": 168,
     "totalTxns": 204,
-    "active24h": 1,
+    "active24h": 0,
     "active7d": 4
   },
   "byCategory": {
